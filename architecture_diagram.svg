@@ -1,0 +1,35 @@
+[
+  {
+    "user_id": "U100",
+    "name": "Maya",
+    "age_group": "teen",
+    "liked_styles": ["streetwear", "oversized", "graphic", "90s"],
+    "favorite_colors": ["black", "white", "blue"],
+    "budget_range": [20, 90],
+    "recent_browsing": ["graphic hoodies", "platform sneakers", "denim jackets"],
+    "purchase_history": ["oversized tees", "cargo pants", "hoodies"],
+    "wish_keywords": ["cool", "trendy", "street style"]
+  },
+  {
+    "user_id": "U101",
+    "name": "Sofia",
+    "age_group": "teen",
+    "liked_styles": ["pastel", "soft", "girly", "cozy"],
+    "favorite_colors": ["pink", "cream", "lavender"],
+    "budget_range": [20, 60],
+    "recent_browsing": ["cardigans", "pendant jewelry", "candles"],
+    "purchase_history": ["knit tops", "hair accessories", "jewelry"],
+    "wish_keywords": ["cute", "cozy", "soft girl"]
+  },
+  {
+    "user_id": "U102",
+    "name": "Jordan",
+    "age_group": "teen",
+    "liked_styles": ["minimal", "clean", "practical", "wellness"],
+    "favorite_colors": ["tan", "gray", "cream"],
+    "budget_range": [20, 70],
+    "recent_browsing": ["wallets", "gift sets", "matching sets"],
+    "purchase_history": ["simple accessories", "candles", "skincare"],
+    "wish_keywords": ["useful", "clean aesthetic", "relaxing"]
+  }
+]

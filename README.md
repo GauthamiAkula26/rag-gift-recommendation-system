@@ -1,6 +1,3 @@
-# rag-gift-recommendation-system
-RAG-based gift recommendation system that combines semantic retrieval with social context. Instead of generic recommendations, it uses a friend’s purchase history, browsing behavior, and style embeddings to retrieve relevant products, and then uses an LLM to generate personalized, explainable recommendations
-
 # RAG E-commerce Gift Recommendation System
 
 A portfolio-ready prototype that demonstrates how Retrieval-Augmented Generation (RAG) can improve gift recommendations for e-commerce.
@@ -62,6 +59,10 @@ flowchart TD
     K[(users.json)] --> C
     L[(social_graph.json)] --> C
 ```
+
+### High-level architecture
+
+![Architecture Diagram](docs/architecture_diagram.svg)
 
 ---
 
@@ -283,6 +284,8 @@ Shoppers convert faster when gift recommendations are:
 
 > I built a RAG-based gift recommendation prototype for e-commerce. The system retrieves products based on the recipient’s style, browsing history, purchase signals, social closeness, occasion, and budget, then generates explainable recommendations rather than generic ranking outputs. I designed it as an MVP that balances personalization, transparency, and conversion-oriented product thinking.
 
+More detail is in [`PM_PROJECT_STORY.md`](PM_PROJECT_STORY.md).
+
 ---
 
 ## Why this is portfolio-ready
@@ -301,4 +304,3 @@ That makes it useful for Product Manager, Product Owner, AI Product, and platfor
 ## License
 
 Use this as a portfolio and learning project. Add your preferred license before publishing publicly.
-
